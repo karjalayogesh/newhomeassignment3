@@ -1,0 +1,66 @@
+
+body{
+    font-family: 'B612', sans-serif;
+    font-family: 'Lato', sans-serif;
+    background-color: aqua; 
+}
+h2{
+    display: inline-block;
+    background-color: red;
+    margin-bottom: 100px;
+    display: inline-block;
+    padding: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    margin: 20px;
+}
+.container{
+    width: 1000px;
+    margin: auto;/* to get same size on oth sides*/
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box1{
+    width: 40%;
+    margin: auto;
+}
+.box2{
+    width: 30%;
+    margin: auto;
+}
+.box3{
+    width: 40%;
+    margin: auto;
+}
+.box3 img{
+    width: 100%;
+    margin: auto;
+}
+/* to get img and paragrah*/
+.box4
+{
+    width: 45%;
+    margin: auto;
+}
+.box4 img
+{
+    width: 100%;
+}
+.box5{
+    width: 45%;
+    margin: auto;
+}
+.box5.box5_1
+{
+    width: 45%;
+    margin: auto;
+}
+.box5_1 img{
+    width: 100%;
+    display: inline-block;
+}
